@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>6-max NLHE</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">♠</span>
+      <h1>6-max NLHE</h1>
+    </div>
+    <div class="meta">
+      <span class="pill" id="hand-idx">Hand —</span>
+      <span class="pill" id="street">—</span>
+      <span class="pill pot-pill" id="pot">Pot 0</span>
+      <label class="toggle" title="显示所有机器人底牌 (debug)">
+        <input type="checkbox" id="toggle-reveal" /> 看底牌
+      </label>
+      <button id="btn-new-hand" class="btn-primary">New Hand</button>
+      <span class="help-btn" tabindex="0" title="键盘快捷键: F=弃 C=过/跟 R=加注 A=全下 N=新手 1-6=下注预设">?</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="table-wrap">
+      <div id="table" class="felt">
+        <div id="board" class="board"></div>
+        <div id="pot-center" class="pot-center">Pot 0</div>
+        <div id="showdown-banner" class="showdown-banner hidden"></div>
+
+        <!-- 6 slots arranged clockwise starting from bottom-center (HERO).
+             Each slot holds both the seat card and an external bet chip. -->
+        <div class="slot slot-0" data-slot="0">
+          <div class="bet-chip"></div>
+          <div class="seat" data-slot="0"></div>
+        </div>
+        <div class="slot slot-1" data-slot="1">
+          <div class="bet-chip"></div>
+          <div class="seat" data-slot="1"></div>
+        </div>
+        <div class="slot slot-2" data-slot="2">
+          <div class="bet-chip"></div>
+          <div class="seat" data-slot="2"></div>
+        </div>
+        <div class="slot slot-3" data-slot="3">
+          <div class="bet-chip"></div>
+          <div class="seat" data-slot="3"></div>
+        </div>
+        <div class="slot slot-4" data-slot="4">
+          <div class="bet-chip"></div>
+          <div class="seat" data-slot="4"></div>
+        </div>
+        <div class="slot slot-5" data-slot="5">
+          <div class="bet-chip"></div>
+          <div class="seat" data-slot="5"></div>
+        </div>
+      </div>
+
+      <div id="action-panel" class="action-panel">
+        <div class="action-header">
+          <div id="action-status">点击 "New Hand" 开始。</div>
+        </div>
+
+        <div class="action-row">
+          <button id="btn-fold" class="btn-danger" disabled>Fold</button>
+          <button id="btn-check-call" class="btn-primary" disabled>Check</button>
+          <button id="btn-allin" class="btn-warn" disabled>All-in</button>
+        </div>
+
+        <div class="raise-row">
+          <div class="raise-buttons" id="raise-buttons"></div>
+          <div class="raise-custom">
+            <div class="slider-wrap">
+              <button class="step-btn" id="btn-raise-minus" title="-0.5bb" disabled>−</button>
+              <input type="range" id="raise-slider" min="0" max="100" step="0.5" disabled />
+              <button class="step-btn" id="btn-raise-plus" title="+0.5bb" disabled>+</button>
+            </div>
+            <div class="raise-input-row">
+              <label>Raise to
+                <input type="number" id="raise-input" min="0" step="0.25" disabled />
+                <span class="unit">bb</span>
+              </label>
+              <span class="raise-hint" id="raise-hint"></span>
+              <button id="btn-raise-custom" class="btn-raise" disabled>Raise (R)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side-panel">
+      <div class="session-panel">
+        <div class="session-head">
+          <h3>Session</h3>
+          <button id="btn-reset-session" class="btn-ghost" title="重置本地统计">Reset</button>
+        </div>
+        <div class="session-grid">
+          <div class="stat"><span class="k">手数</span><span class="v" id="s-hands">0</span></div>
+          <div class="stat"><span class="k">累计 PnL</span><span class="v pnl" id="s-pnl">+0.00</span></div>
+          <div class="stat"><span class="k">bb/手</span><span class="v" id="s-avg">0.000</span></div>
+          <div class="stat"><span class="k">胜/平/负</span><span class="v" id="s-wlt">0/0/0</span></div>
+          <div class="stat"><span class="k">单手最高</span><span class="v pnl" id="s-best">+0.00</span></div>
+          <div class="stat"><span class="k">单手最低</span><span class="v pnl" id="s-worst">+0.00</span></div>
+        </div>
+      </div>
+
+      <div class="log-panel">
+        <h3>手牌日志</h3>
+        <pre id="log"></pre>
+      </div>
+    </aside>
+  </main>
+
+  <script src="{{ url_for('static', filename='game.js') }}?v=3"></script>
+</body>
+</html>

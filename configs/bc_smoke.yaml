@@ -1,0 +1,27 @@
+# Smoke-test BC config: tiny model, tiny data, few steps.
+shard_glob: d:/Poker/DAOstrategy/processed_smoke/shard_*.npz
+val_frac: 0.2
+
+device: cuda
+batch_size: 256
+num_workers: 2
+
+d_model: 128
+n_heads: 4
+n_layers: 2
+dropout: 0.1
+
+lr: 3.0e-4
+weight_decay: 0.01
+grad_clip: 1.0
+rfrac_weight: 0.2
+
+total_steps: 400
+warmup_steps: 20
+log_every: 20
+eval_every: 100
+eval_batches: 5
+save_every: 200
+
+log_dir: runs/bc_smoke
+ckpt_dir: checkpoints/bc_smoke

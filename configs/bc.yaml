@@ -1,0 +1,30 @@
+# Full BC training on preprocessed dataset.
+# Resource cap: ~80% (leave 20% for desktop use).
+shard_glob: d:/Poker/DAOstrategy/processed/shard_*.npz
+val_frac: 0.05
+
+device: cuda
+gpu_mem_fraction: 0.80   # cap VRAM to 9.6 GB, keep 2.4 GB free for desktop/browser
+
+batch_size: 1024         # smaller batch -> less GPU peak, less per-step disk read
+num_workers: 2           # minimize concurrent disk I/O (shard-local sampler used)
+
+d_model: 192
+n_heads: 4
+n_layers: 4
+dropout: 0.1
+
+lr: 3.0e-4
+weight_decay: 0.01
+grad_clip: 1.0
+rfrac_weight: 0.2
+
+total_steps: 200000
+warmup_steps: 2000
+log_every: 100
+eval_every: 2000
+eval_batches: 100
+save_every: 5000         # more frequent saves so reboots lose less progress
+
+log_dir: runs/bc_full
+ckpt_dir: checkpoints/bc_full

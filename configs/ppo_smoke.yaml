@@ -1,0 +1,30 @@
+# Smoke-test PPO config.
+device: cuda
+seed: 0
+
+# env
+n_envs: 32
+start_stack_bb: 100.0
+sb_bb: 0.5
+bb_bb: 1.0
+opp_temperature: 1.0
+
+# rollout
+n_steps: 32
+total_iters: 10
+save_every: 5
+
+# PPO
+epochs: 2
+minibatch_size: 256
+lr: 3.0e-5
+gamma: 0.99
+gae_lambda: 0.95
+clip_eps: 0.2
+vf_coef: 0.5
+ent_coef: 0.01
+kl_to_bc_coef: 0.02
+grad_clip: 0.5
+
+log_dir: runs/ppo_smoke
+ckpt_dir: checkpoints/ppo_smoke

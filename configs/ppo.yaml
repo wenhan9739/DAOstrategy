@@ -1,0 +1,36 @@
+# Full PPO training config.
+# Resource cap: ~80% (leave 20% for desktop use).
+device: cuda
+seed: 0
+gpu_mem_fraction: 0.80    # cap VRAM to 9.6 GB, keep 2.4 GB free
+
+# env: single-process (subprocs tried but CPU opp forward was slower than GPU).
+# phevaluator (C++) for hand eval keeps showdowns cheap; iter is ~20s steady.
+n_workers: 0              # 0 = single-process (fastest for this workload)
+envs_per_worker: 32       # only used if n_workers > 0
+worker_torch_threads: 2
+n_envs: 128
+start_stack_bb: 100.0
+sb_bb: 0.5
+bb_bb: 1.0
+opp_temperature: 1.0
+
+# rollout
+n_steps: 128
+total_iters: 3000         # ~30M hands at the new speed
+save_every: 50
+
+# PPO
+epochs: 3
+minibatch_size: 4096
+lr: 3.0e-5
+gamma: 0.99
+gae_lambda: 0.95
+clip_eps: 0.2
+vf_coef: 0.5
+ent_coef: 0.01
+kl_to_bc_coef: 0.02
+grad_clip: 0.5
+
+log_dir: runs/ppo_full
+ckpt_dir: checkpoints/ppo_full

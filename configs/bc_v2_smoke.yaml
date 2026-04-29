@@ -1,0 +1,35 @@
+# Smoke-test config for v2. Trains only 50 steps on a small subset.
+shard_glob: d:/Poker/DAOstrategy/processed/shard_w00_0000*.npz
+val_frac: 0.2
+
+device: cuda
+gpu_mem_fraction: 0.50
+
+batch_size: 256
+num_workers: 0
+
+d_model: 192
+n_heads: 4
+n_layers: 4
+dropout: 0.1
+
+lr: 3.0e-4
+weight_decay: 0.01
+grad_clip: 1.0
+
+label_smoothing: 0.05
+raise_neighbor_weight: 0.15
+rfrac_weight: 0.1
+
+only_num_players: 6
+suit_permute: true
+
+total_steps: 50
+warmup_steps: 10
+log_every: 10
+eval_every: 25
+eval_batches: 5
+save_every: 50
+
+log_dir: runs/bc_v2_smoke
+ckpt_dir: checkpoints/bc_v2_smoke

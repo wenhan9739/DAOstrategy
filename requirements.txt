@@ -1,0 +1,10 @@
+# GPU torch installed separately via CUDA 12.1 wheel:
+#   pip install torch --index-url https://mirror.sjtu.edu.cn/pytorch-wheels/cu121
+torch>=2.4
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15
+pokerkit>=0.7
+tqdm>=4.66
+pyyaml>=6
+tensorboard>=2.17

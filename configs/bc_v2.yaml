@@ -1,0 +1,53 @@
+# BC v2 training config: fixes from the self-play reproducibility analysis.
+#
+# Changes vs configs/bc.yaml:
+#   * only_num_players: 6      -> drop HU/3-max hands that pollute BTN
+#                                  (position 5 was shared with heads-up BTN).
+#   * suit_permute: true       -> 24-way suit permutation data augmentation;
+#                                  forces card_emb to learn rank-mostly features.
+#   * label_smoothing: 0.05    -> mitigate CE mode collapse.
+#   * raise_neighbor_weight: 0.15
+#                              -> ordinal soft-label: raise-bucket mass is
+#                                  shared with the immediate ±1 neighbor buckets.
+#                                  Fixes the 48% collapse onto R0.5x-pot.
+#   * rfrac_weight: 0.1        -> down from 0.2; rfrac head contributed little.
+#   * separate ctx_proj vs hist_rfrac_proj (see models/bc.py).
+#
+# Resource cap: ~80% VRAM, 2 workers (same as v1 to not starve desktop use).
+
+shard_glob: d:/Poker/DAOstrategy/processed/shard_*.npz
+val_frac: 0.05
+
+device: cuda
+gpu_mem_fraction: 0.80
+
+batch_size: 1024
+num_workers: 2
+
+d_model: 192
+n_heads: 4
+n_layers: 4
+dropout: 0.1
+
+lr: 3.0e-4
+weight_decay: 0.01
+grad_clip: 1.0
+
+# v2 loss knobs
+label_smoothing: 0.05
+raise_neighbor_weight: 0.15
+rfrac_weight: 0.1
+
+# v2 data knobs
+only_num_players: 6
+suit_permute: true
+
+total_steps: 120000
+warmup_steps: 2000
+log_every: 100
+eval_every: 2000
+eval_batches: 100
+save_every: 5000
+
+log_dir: runs/bc_v2
+ckpt_dir: checkpoints/bc_v2
