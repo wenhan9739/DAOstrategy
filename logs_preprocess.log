@@ -1,0 +1,16 @@
+Found 30013 input files under d:\Poker\DAOstrategy\holdem6max
+Launching 8 workers, shard_size=200,000
+  worker 05 done: 6,492,869 samples, 33 shards
+  worker 06 done: 6,471,643 samples, 33 shards
+  worker 02 done: 6,552,825 samples, 33 shards
+  worker 07 done: 6,494,517 samples, 33 shards
+  worker 00 done: 6,469,254 samples, 33 shards
+  worker 04 done: 6,537,610 samples, 33 shards
+  worker 01 done: 6,461,135 samples, 33 shards
+  worker 03 done: 6,536,973 samples, 33 shards
+
+=== PREPROCESS DONE ===
+Samples : 52,016,826
+Shards  : 264
+Elapsed : 733.1s  (70,957 samples/s)
+Output  : d:\Poker\DAOstrategy\processed

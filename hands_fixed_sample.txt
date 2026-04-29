@@ -1,0 +1,602 @@
+# Dump of 30 hands
+# HERO  : checkpoints/ppo_full/iter_00500.pt
+# OPP   : checkpoints/bc_full/best.pt
+# seed  : 123456
+# stack : 100.0 bb | blinds 0.5/1.0
+# positions: 0=SB 1=BB 2=UTG 3=HJ 4=CO 5=BTN (hero rotates)
+
+========== Hand #1  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 3c 2s
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: raise 1x-pot  to 2.00  (+2.00, pot_before 1.5)
+  BB: calls 1.50  (to_call was 1.50)
+-- Flop: [Ah Kc Td]  (pot now 5.0) --
+  SB: checks
+  BB: checks
+-- Turn: [4c]  (pot now 5.0) --
+  SB: checks
+  BB: checks
+-- River: [8c]  (pot now 5.0) --
+  SB: raise 0.5x-pot  to 2.50  (+2.50, pot_before 5.0)
+  BB: folds
+Final board: [Ah Kc Td 4c 8c]
+Final pot (before settle): ... winners took from pot=7.50
+Winners: SB
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #2  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: 5d 9c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB [HERO]: calls 1.75  (to_call was 1.75)
+  BB: folds
+-- Flop: [5s 2c Tc]  (pot now 5.5) --
+  SB [HERO]: raise 2x-pot  to 11.00  (+11.00, pot_before 5.5)
+  UTG: folds
+Final board: [5s 2c Tc]
+Final pot (before settle): ... winners took from pot=16.50
+Winners: SB
+HERO PnL: +3.25 bb  (final stack 103.25)
+
+========== Hand #3  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: 8h Kh
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB [HERO]: calls 1.75  (to_call was 1.75)
+  BB: folds
+-- Flop: [4d Qh 4c]  (pot now 5.5) --
+  SB [HERO]: checks
+  UTG: checks
+-- Turn: [As]  (pot now 5.5) --
+  SB [HERO]: raise 1.5x-pot  to 8.25  (+8.25, pot_before 5.5)
+  UTG: calls 8.25  (to_call was 8.25)
+-- River: [3s]  (pot now 22.0) --
+  SB [HERO]: raise 1.5x-pot  to 33.00  (+33.00, pot_before 22.0)
+  UTG: folds
+Final board: [4d Qh 4c As 3s]
+Final pot (before settle): ... winners took from pot=55.00
+Winners: SB
+HERO PnL: +11.50 bb  (final stack 111.50)
+
+========== Hand #4  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: Qh 3d
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: raise 0.33x-pot  to 2.00  (+2.00, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB [HERO]: raise 0.75x-pot  to 4.75  (+4.75, pot_before 3.5)
+  BB: folds
+  UTG: calls 3.25  (to_call was 3.25)
+-- Flop: [Kc Ad 3s]  (pot now 11.5) --
+  SB [HERO]: raise 1.5x-pot  to 17.25  (+17.25, pot_before 11.5)
+  UTG: folds
+Final board: [Kc Ad 3s]
+Final pot (before settle): ... winners took from pot=28.75
+Winners: SB
+HERO PnL: +6.25 bb  (final stack 106.25)
+
+========== Hand #5  (seed=123456) ==========
+Hero: seat 3 (HJ)  hole: 6h Jc
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ [HERO]: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: calls 1.25  (to_call was 1.25)
+-- Flop: [9h 2s 7s]  (pot now 5.0) --
+  BB: checks
+  CO: checks
+-- Turn: [4s]  (pot now 5.0) --
+  BB: checks
+  CO: checks
+-- River: [8c]  (pot now 5.0) --
+  BB: raise 0.33x-pot  to 1.65  (+1.65, pot_before 5.0)
+  CO: folds
+Final board: [9h 2s 7s 4s 8c]
+Final pot (before settle): ... winners took from pot=6.65
+Winners: BB
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #6  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: 3d Jh
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB [HERO]: raise 2x-pot  to 12.25  (+12.25, pot_before 3.8)
+  BB: folds
+  CO: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=16.00
+Winners: SB
+HERO PnL: +3.25 bb  (final stack 103.25)
+
+========== Hand #7  (seed=123456) ==========
+Hero: seat 1 (BB)  hole: 2s 3c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: raise 1x-pot  to 2.00  (+2.00, pot_before 1.5)
+  BB [HERO]: raise 1x-pot  to 5.50  (+5.50, pot_before 3.5)
+  SB: calls 4.00  (to_call was 4.00)
+-- Flop: [4c Td 3s]  (pot now 13.0) --
+  SB: checks
+  BB [HERO]: raise 1.5x-pot  to 19.50  (+19.50, pot_before 13.0)
+  SB: folds
+Final board: [4c Td 3s]
+Final pot (before settle): ... winners took from pot=32.50
+Winners: BB
+HERO PnL: +6.50 bb  (final stack 106.50)
+
+========== Hand #8  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 4h Kh
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: raise 0.5x-pot  to 5.25  (+5.25, pot_before 3.8)
+  BTN: calls 5.25  (to_call was 5.25)
+  SB: folds
+  BB: folds
+  UTG [HERO]: raise 1.5x-pot  to 26.62  (+26.62, pot_before 14.2)
+  CO: folds
+  BTN: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=40.88
+Winners: UTG
+HERO PnL: +12.00 bb  (final stack 112.00)
+
+========== Hand #9  (seed=123456) ==========
+Hero: seat 3 (HJ)  hole: 7d Ad
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ [HERO]: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: calls 1.25  (to_call was 1.25)
+-- Flop: [6h Kh 6s]  (pot now 5.0) --
+  BB: checks
+  CO: raise 0.33x-pot  to 1.65  (+1.65, pot_before 5.0)
+  BB: folds
+Final board: [6h Kh 6s]
+Final pot (before settle): ... winners took from pot=6.65
+Winners: CO
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #10  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 2h Ah
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: calls 1.25  (to_call was 1.25)
+-- Flop: [4c 9s 3d]  (pot now 5.0) --
+  BB: checks
+  UTG [HERO]: raise 1.5x-pot  to 7.50  (+7.50, pot_before 5.0)
+  BB: folds
+Final board: [4c 9s 3d]
+Final pot (before settle): ... winners took from pot=12.50
+Winners: UTG
+HERO PnL: +2.75 bb  (final stack 102.75)
+
+========== Hand #11  (seed=123456) ==========
+Hero: seat 4 (CO)  hole: Ah 9c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO [HERO]: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: calls 1.25  (to_call was 1.25)
+-- Flop: [3c Td 9d]  (pot now 5.0) --
+  BB: checks
+  CO [HERO]: raise 1.5x-pot  to 7.50  (+7.50, pot_before 5.0)
+  BB: folds
+Final board: [3c Td 9d]
+Final pot (before settle): ... winners took from pot=12.50
+Winners: CO
+HERO PnL: +2.75 bb  (final stack 102.75)
+
+========== Hand #12  (seed=123456) ==========
+Hero: seat 5 (BTN)  hole: Ad Ac
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN [HERO]: raise 1x-pot  to 8.25  (+8.25, pot_before 3.8)
+  SB: folds
+  BB: folds
+  CO: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=12.00
+Winners: BTN
+HERO PnL: +3.75 bb  (final stack 103.75)
+
+========== Hand #13  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: Qd 3d
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  SB [HERO]: folds
+  BB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=3.75
+Winners: BTN
+HERO PnL: -0.50 bb  (final stack 99.50)
+
+========== Hand #14  (seed=123456) ==========
+Hero: seat 1 (BB)  hole: 7h Jh
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.33x-pot  to 2.00  (+2.00, pot_before 1.5)
+  BTN: calls 2.00  (to_call was 2.00)
+  SB: folds
+  BB [HERO]: folds
+-- Flop: [Th 3d Qd]  (pot now 5.5) --
+  CO: raise 0.5x-pot  to 2.75  (+2.75, pot_before 5.5)
+  BTN: folds
+Final board: [Th 3d Qd]
+Final pot (before settle): ... winners took from pot=8.25
+Winners: CO
+HERO PnL: -1.00 bb  (final stack 99.00)
+
+========== Hand #15  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: 4d 9c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  SB [HERO]: raise 1.5x-pot  to 9.50  (+9.50, pot_before 3.8)
+  BB: folds
+  BTN: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=13.25
+Winners: SB
+HERO PnL: +3.25 bb  (final stack 103.25)
+
+========== Hand #16  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 5c As
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=3.75
+Winners: UTG
+HERO PnL: +1.50 bb  (final stack 101.50)
+
+========== Hand #17  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: Jd 7c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB [HERO]: folds
+  BB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=3.75
+Winners: HJ
+HERO PnL: -0.50 bb  (final stack 99.50)
+
+========== Hand #18  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 5c 2c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: raise 0.75x-pot  to 2.88  (+2.88, pot_before 1.5)
+  HJ: folds
+  CO: calls 2.88  (to_call was 2.88)
+  BTN: folds
+  SB: folds
+  BB: folds
+-- Flop: [6s 7c 2d]  (pot now 7.2) --
+  UTG [HERO]: raise 1.5x-pot  to 10.88  (+10.88, pot_before 7.2)
+  CO: calls 10.88  (to_call was 10.88)
+-- Turn: [Kc]  (pot now 29.0) --
+  UTG [HERO]: raise 1.5x-pot  to 43.50  (+43.50, pot_before 29.0)
+  CO: folds
+Final board: [6s 7c 2d Kc]
+Final pot (before settle): ... winners took from pot=72.50
+Winners: UTG
+HERO PnL: +15.25 bb  (final stack 115.25)
+
+========== Hand #19  (seed=123456) ==========
+Hero: seat 3 (HJ)  hole: 4s Jc
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ [HERO]: folds
+  CO: folds
+  BTN: folds
+  SB: calls 0.50  (to_call was 0.50)
+  BB: checks
+-- Flop: [5c Kc 9d]  (pot now 2.0) --
+  SB: checks
+  BB: checks
+-- Turn: [8h]  (pot now 2.0) --
+  SB: raise 0.5x-pot  to 1.00  (+1.00, pot_before 2.0)
+  BB: calls 1.00  (to_call was 1.00)
+-- River: [5s]  (pot now 4.0) --
+  SB: raise 0.75x-pot  to 3.00  (+3.00, pot_before 4.0)
+  BB: folds
+Final board: [5c Kc 9d 8h 5s]
+Final pot (before settle): ... winners took from pot=7.00
+Winners: SB
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #20  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 3h Ks
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: folds
+  HJ: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: raise 2x-pot  to 12.25  (+12.25, pot_before 3.8)
+  BB: folds
+  CO: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=16.00
+Winners: SB
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #21  (seed=123456) ==========
+Hero: seat 0 (SB)  hole: 6c 8s
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  CO: folds
+  BTN: raise 0.75x-pot  to 6.75  (+6.75, pot_before 3.8)
+  SB [HERO]: folds
+  BB: folds
+  HJ: calls 4.50  (to_call was 4.50)
+-- Flop: [Kd Tc 2s]  (pot now 15.0) --
+  HJ: checks
+  BTN: checks
+-- Turn: [5d]  (pot now 15.0) --
+  HJ: checks
+  BTN: checks
+-- River: [9h]  (pot now 15.0) --
+  HJ: raise 0.75x-pot  to 11.25  (+11.25, pot_before 15.0)
+  BTN: calls 11.25  (to_call was 11.25)
+Final board: [Kd Tc 2s 5d 9h]
+Final pot (before settle): ... winners took from pot=37.50
+Winners: HJ
+HERO PnL: -0.50 bb  (final stack 99.50)
+Showdown: HJ=9s Th  BTN=Qh Ah
+
+========== Hand #22  (seed=123456) ==========
+Hero: seat 1 (BB)  hole: 9c Qc
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB [HERO]: raise 2x-pot  to 10.25  (+10.25, pot_before 3.8)
+  HJ: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=14.00
+Winners: BB
+HERO PnL: +2.75 bb  (final stack 102.75)
+
+========== Hand #23  (seed=123456) ==========
+Hero: seat 5 (BTN)  hole: 7h 6c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN [HERO]: folds
+  SB: folds
+  BB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=3.75
+Winners: UTG
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #24  (seed=123456) ==========
+Hero: seat 4 (CO)  hole: 7d 6h
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO [HERO]: folds
+  BTN: folds
+  SB: raise 1x-pot  to 2.00  (+2.00, pot_before 1.5)
+  BB: calls 1.50  (to_call was 1.50)
+-- Flop: [6c As 3c]  (pot now 5.0) --
+  SB: checks
+  BB: raise 0.75x-pot  to 3.75  (+3.75, pot_before 5.0)
+  SB: calls 3.75  (to_call was 3.75)
+-- Turn: [2c]  (pot now 12.5) --
+  SB: checks
+  BB: raise 0.75x-pot  to 9.38  (+9.38, pot_before 12.5)
+  SB: folds
+Final board: [6c As 3c 2c]
+Final pot (before settle): ... winners took from pot=21.88
+Winners: BB
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #25  (seed=123456) ==========
+Hero: seat 3 (HJ)  hole: 4h 3s
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ [HERO]: raise 1.5x-pot  to 4.75  (+4.75, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB: raise 0.33x-pot  to 8.00  (+8.00, pot_before 6.2)
+  BB: folds
+  HJ [HERO]: raise 1.5x-pot  to 26.00  (+26.00, pot_before 14.2)
+  SB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=40.25
+Winners: HJ
+HERO PnL: +9.50 bb  (final stack 109.50)
+
+========== Hand #26  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 5d Qc
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: folds
+  HJ: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: calls 2.25  (to_call was 2.25)
+  SB: folds
+  BB: folds
+-- Flop: [8h Qh Ac]  (pot now 6.0) --
+  CO: checks
+  BTN: checks
+-- Turn: [3s]  (pot now 6.0) --
+  CO: raise 0.75x-pot  to 4.50  (+4.50, pot_before 6.0)
+  BTN: folds
+Final board: [8h Qh Ac 3s]
+Final pot (before settle): ... winners took from pot=10.50
+Winners: CO
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #27  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 9c Tc
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: folds
+  HJ: folds
+  CO: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=3.75
+Winners: CO
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+========== Hand #28  (seed=123456) ==========
+Hero: seat 4 (CO)  hole: Qs Ts
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO [HERO]: raise 0.75x-pot  to 2.88  (+2.88, pot_before 1.5)
+  BTN: folds
+  SB: calls 2.38  (to_call was 2.38)
+  BB: calls 1.88  (to_call was 1.88)
+-- Flop: [Th Tc 2c]  (pot now 8.6) --
+  SB: checks
+  BB: checks
+  CO [HERO]: raise 2x-pot  to 17.25  (+17.25, pot_before 8.6)
+  SB: folds
+  BB: folds
+Final board: [Th Tc 2c]
+Final pot (before settle): ... winners took from pot=25.88
+Winners: CO
+HERO PnL: +5.75 bb  (final stack 105.75)
+
+========== Hand #29  (seed=123456) ==========
+Hero: seat 1 (BB)  hole: 5s Jd
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: raise 0.5x-pot  to 2.25  (+2.25, pot_before 1.5)
+  SB: folds
+  BB [HERO]: raise 1x-pot  to 5.25  (+5.25, pot_before 3.8)
+  BTN: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=9.00
+Winners: BB
+HERO PnL: +2.75 bb  (final stack 102.75)
+
+========== Hand #30  (seed=123456) ==========
+Hero: seat 2 (UTG)  hole: 2c 3c
+Seats: SB=100bb | BB=100bb | UTG=100bb | HJ=100bb | CO=100bb | BTN=100bb
+Blinds: SB 0.5 / BB 1.0  (initial pot 1.5)
+-- Preflop --
+  UTG [HERO]: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+Final board: [(no board)]
+Final pot (before settle): ... winners took from pot=1.50
+Winners: BB
+HERO PnL: +0.00 bb  (final stack 100.00)
+
+
+# === Summary ===
+# Hands     : 30
+# Mean PnL  : +3.0083 bb/hand  (+3008.3 mbb/hand)
+# Wall time : 1 s

@@ -1,0 +1,29 @@
+Loading HERO from checkpoints/ppo_full/iter_00500.pt
+Loading OPP  from checkpoints/bc_full/best.pt
+     500/10000  rate=26.8 hand/s  mbb/hand(running)=+1744.9  elapsed=19s  eta=354s
+    1000/10000  rate=23.1 hand/s  mbb/hand(running)=+259.7  elapsed=43s  eta=389s
+    1500/10000  rate=22.3 hand/s  mbb/hand(running)=-103.1  elapsed=67s  eta=382s
+    2000/10000  rate=22.8 hand/s  mbb/hand(running)=-176.3  elapsed=88s  eta=352s
+    2500/10000  rate=22.1 hand/s  mbb/hand(running)=-374.1  elapsed=113s  eta=340s
+    3000/10000  rate=21.6 hand/s  mbb/hand(running)=-15.4  elapsed=139s  eta=324s
+    3500/10000  rate=21.0 hand/s  mbb/hand(running)=+187.5  elapsed=166s  eta=309s
+    4000/10000  rate=20.7 hand/s  mbb/hand(running)=+245.3  elapsed=193s  eta=289s
+    4500/10000  rate=20.5 hand/s  mbb/hand(running)=+194.2  elapsed=219s  eta=268s
+    5000/10000  rate=20.2 hand/s  mbb/hand(running)=+391.7  elapsed=247s  eta=247s
+    5500/10000  rate=20.0 hand/s  mbb/hand(running)=+502.3  elapsed=275s  eta=225s
+    6000/10000  rate=19.8 hand/s  mbb/hand(running)=+604.6  elapsed=302s  eta=202s
+    6500/10000  rate=19.8 hand/s  mbb/hand(running)=+698.6  elapsed=329s  eta=177s
+    7000/10000  rate=19.7 hand/s  mbb/hand(running)=+635.7  elapsed=355s  eta=152s
+    7500/10000  rate=19.6 hand/s  mbb/hand(running)=+567.5  elapsed=382s  eta=127s
+    8000/10000  rate=19.6 hand/s  mbb/hand(running)=+653.3  elapsed=409s  eta=102s
+    8500/10000  rate=19.5 hand/s  mbb/hand(running)=+680.0  elapsed=435s  eta=77s
+    9000/10000  rate=19.4 hand/s  mbb/hand(running)=+805.0  elapsed=463s  eta=51s
+    9500/10000  rate=19.4 hand/s  mbb/hand(running)=+821.5  elapsed=491s  eta=26s
+   10000/10000  rate=19.3 hand/s  mbb/hand(running)=+922.4  elapsed=517s  eta=0s
+
+# === Summary ===
+# Hands     : 10000
+# Mean PnL  : +0.9224 bb/hand  (+922.4 mbb/hand)
+# Wall time : 517 s
+
+Wrote D:\Poker\DAOstrategy\hands_iter500.txt

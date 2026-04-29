@@ -1,0 +1,60 @@
+Testing: glm-5.1
+Sending request...
+Status: 200
+SUCCESS!
+Response: Hello! I'm GLM, trained by Z.ai. How can I assist you today? Whether you have questions or just want to chat, I'm happy to help.
+
+Full response:
+{
+  "id": "gen-1776958727-XfpDehEZMc6Sm6zMIuQB",
+  "object": "chat.completion",
+  "created": 1776958727,
+  "model": "z-ai/glm-5.1-20260406",
+  "provider": "SiliconFlow",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Hello! I'm GLM, trained by Z.ai. How can I assist you today? Whether you have questions or just want to chat, I'm happy to help.",
+        "refusal": null,
+        "reasoning": "Let me consider how to respond to this greeting thoughtfully.\n\nThe user has started with a simple \"Hello\", which is a common conversation opener. This calls for a warm and professional response that sets a welcoming tone.\n\nI should acknowledge their greeting in a friendly way while also opening the door for further conversation. It's important to be both approachable and professional, as I want to create a comfortable environment for dialogue.\n\nSince this is an initial interaction, I should also consider introducing myself briefly and expressing my willingness to help. This helps establish my role while showing openness to assist.\n\nA good approach would be to:\n1. Return the greeting warmly\n2. Offer assistance\n3. Keep it concise but inviting\n\nThis simple yet thoughtful response will help establish a positive foundation for our conversation, whether they have specific questions or just want to chat.",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "Let me consider how to respond to this greeting thoughtfully.\n\nThe user has started with a simple \"Hello\", which is a common conversation opener. This calls for a warm and professional response that sets a welcoming tone.\n\nI should acknowledge their greeting in a friendly way while also opening the door for further conversation. It's important to be both approachable and professional, as I want to create a comfortable environment for dialogue.\n\nSince this is an initial interaction, I should also consider introducing myself briefly and expressing my willingness to help. This helps establish my role while showing openness to assist.\n\nA good approach would be to:\n1. Return the greeting warmly\n2. Offer assistance\n3. Keep it concise but inviting\n\nThis simple yet thoughtful response will help establish a positive foundation for our conversation, whether they have specific questions or just want to chat.",
+            "format": "unknown",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 204,
+    "total_tokens": 210,
+    "cost": 0.000906,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000906,
+      "upstream_inference_prompt_cost": 8.4e-06,
+      "upstream_inference_completions_cost": 0.0008976
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 169,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

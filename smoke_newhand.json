@@ -1,0 +1,178 @@
+﻿{
+    "board":  [
+
+              ],
+    "current_bet":  2.25,
+    "done":  false,
+    "hand_idx":  1,
+    "hero_pos":  "SB",
+    "hero_seat":  0,
+    "legal":  {
+                  "allin":  true,
+                  "any_raise":  true,
+                  "check_call":  true,
+                  "fold":  true
+              },
+    "log":  [
+                "=== Hand #1 — HERO seat 0 (SB) ===",
+                "Blinds: SB 0.5 / BB 1.0. Starting stacks 100bb.",
+                "[Preflop] UTG: folds (pot 1.5)",
+                "[Preflop] HJ: folds (pot 1.5)",
+                "[Preflop] CO: folds (pot 1.5)",
+                "[Preflop] BTN: raises (0.5x pot) (pot 1.5)"
+            ],
+    "max_raise_to":  100.0,
+    "min_raise":  1.25,
+    "min_raise_to":  3.5,
+    "players":  [
+                    {
+                        "all_in":  false,
+                        "committed_street":  0.5,
+                        "committed_total":  0.5,
+                        "folded":  false,
+                        "hole":  [
+                                     "Jd",
+                                     "Js"
+                                 ],
+                        "is_hero":  true,
+                        "is_to_act":  true,
+                        "is_winner":  false,
+                        "pos":  "SB",
+                        "seat":  0,
+                        "stack":  99.5
+                    },
+                    {
+                        "all_in":  false,
+                        "committed_street":  1.0,
+                        "committed_total":  1.0,
+                        "folded":  false,
+                        "hole":  [
+                                     "??",
+                                     "??"
+                                 ],
+                        "is_hero":  false,
+                        "is_to_act":  false,
+                        "is_winner":  false,
+                        "pos":  "BB",
+                        "seat":  1,
+                        "stack":  99.0
+                    },
+                    {
+                        "all_in":  false,
+                        "committed_street":  0.0,
+                        "committed_total":  0.0,
+                        "folded":  true,
+                        "hole":  [
+                                     "??",
+                                     "??"
+                                 ],
+                        "is_hero":  false,
+                        "is_to_act":  false,
+                        "is_winner":  false,
+                        "pos":  "UTG",
+                        "seat":  2,
+                        "stack":  100.0
+                    },
+                    {
+                        "all_in":  false,
+                        "committed_street":  0.0,
+                        "committed_total":  0.0,
+                        "folded":  true,
+                        "hole":  [
+                                     "??",
+                                     "??"
+                                 ],
+                        "is_hero":  false,
+                        "is_to_act":  false,
+                        "is_winner":  false,
+                        "pos":  "HJ",
+                        "seat":  3,
+                        "stack":  100.0
+                    },
+                    {
+                        "all_in":  false,
+                        "committed_street":  0.0,
+                        "committed_total":  0.0,
+                        "folded":  true,
+                        "hole":  [
+                                     "??",
+                                     "??"
+                                 ],
+                        "is_hero":  false,
+                        "is_to_act":  false,
+                        "is_winner":  false,
+                        "pos":  "CO",
+                        "seat":  4,
+                        "stack":  100.0
+                    },
+                    {
+                        "all_in":  false,
+                        "committed_street":  2.25,
+                        "committed_total":  2.25,
+                        "folded":  false,
+                        "hole":  [
+                                     "??",
+                                     "??"
+                                 ],
+                        "is_hero":  false,
+                        "is_to_act":  false,
+                        "is_winner":  false,
+                        "pos":  "BTN",
+                        "seat":  5,
+                        "stack":  97.75
+                    }
+                ],
+    "pot":  3.75,
+    "raise_buttons":  [
+                          {
+                              "bucket":  2,
+                              "label":  "0.33x pot",
+                              "legal":  true,
+                              "raise_to_bb":  4.07
+                          },
+                          {
+                              "bucket":  3,
+                              "label":  "0.5x pot",
+                              "legal":  true,
+                              "raise_to_bb":  5.0
+                          },
+                          {
+                              "bucket":  4,
+                              "label":  "0.75x pot",
+                              "legal":  true,
+                              "raise_to_bb":  6.38
+                          },
+                          {
+                              "bucket":  5,
+                              "label":  "1x pot",
+                              "legal":  true,
+                              "raise_to_bb":  7.75
+                          },
+                          {
+                              "bucket":  6,
+                              "label":  "1.5x pot",
+                              "legal":  true,
+                              "raise_to_bb":  10.5
+                          },
+                          {
+                              "bucket":  7,
+                              "label":  "2x pot",
+                              "legal":  true,
+                              "raise_to_bb":  13.25
+                          },
+                          {
+                              "bucket":  8,
+                              "label":  "3x pot",
+                              "legal":  true,
+                              "raise_to_bb":  18.75
+                          }
+                      ],
+    "settle":  null,
+    "started":  true,
+    "street":  0,
+    "street_name":  "Preflop",
+    "to_act":  0,
+    "to_act_pos":  "SB",
+    "to_call":  1.75,
+    "waiting_for_human":  true
+}

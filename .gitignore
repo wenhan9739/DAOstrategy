@@ -1,40 +1,14 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyc
-*.pyo
-*.egg-info/
-
-# PyTorch checkpoints
-checkpoints/
-*.pt
-*.pth
+# Poker hand history datasets
+holdem6max/
+phh-dataset/
 
 # Processed data
 processed/
 *.npz
 
-# Poker hand history datasets
-holdem6max/
-phh-dataset/
-*.phh
-*.phhs
-
-# Logs & PID files
-*.log
-*.err
-*.pid
-
-# Sample/output text files
-bc6_hands_*.txt
-hands_*.txt
-sample_*.txt
-smoke_*.json
-stats_*.json
-api_result.txt
-
-# TensorBoard runs
-runs/
+# Python cache
+__pycache__/
+*.pyc
 
 # OS
 .DS_Store

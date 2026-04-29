@@ -1,0 +1,44 @@
+========== Hand #3 ==========
+Hero seat 0 (SB) hole 7s Ah
+-- pre --
+  UTG: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: UTG
+
+========== Hand #1 ==========
+Hero seat 4 (CO) hole Ac 9h
+-- pre --
+  UTG: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: calls 1.25 (to_call 1.25)
+-- flop --
+  BB: checks
+  UTG: raise 0.75x-pot  (+3.75, pot_before 5.0)
+  BB: folds
+Final board: [7s 7c 6s]
+Winners: UTG
+
+========== Hand #2 ==========
+Hero seat 4 (CO) hole Ks Ah
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: calls 1.25 (to_call 1.25)
+-- flop --
+  BB: checks
+  CO: raise 0.5x-pot  (+2.50, pot_before 5.0)
+  BB: folds
+Final board: [8c 3s Kh]
+Winners: CO
+

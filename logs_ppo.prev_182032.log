@@ -1,0 +1,25 @@
+Capped GPU memory fraction to 0.80
+iter     1 | hands   11729 | mbb/hand   +30.0 | pol -0.0000 val 37.2789 ent 0.689 kl 0.0289 clip 0.171 | 20s
+iter     2 | hands   23084 | mbb/hand   +24.4 | pol +0.0009 val 53.7645 ent 0.754 kl 0.0543 clip 0.202 | 41s
+iter     3 | hands   33763 | mbb/hand  +232.1 | pol +0.0018 val 67.4963 ent 0.821 kl 0.0987 clip 0.221 | 63s
+iter     4 | hands   43879 | mbb/hand  +369.2 | pol +0.0011 val 92.3745 ent 0.877 kl 0.1553 clip 0.235 | 87s
+iter     5 | hands   53375 | mbb/hand   +57.7 | pol +0.0029 val 139.9028 ent 0.932 kl 0.2095 clip 0.253 | 111s
+iter     6 | hands   62666 | mbb/hand  +356.5 | pol +0.0034 val 148.4084 ent 0.958 kl 0.2623 clip 0.265 | 133s
+iter     7 | hands   71714 | mbb/hand  +519.7 | pol +0.0042 val 171.5331 ent 0.980 kl 0.3043 clip 0.276 | 155s
+iter     8 | hands   80562 | mbb/hand  +685.8 | pol +0.0058 val 179.3360 ent 1.006 kl 0.3495 clip 0.284 | 175s
+iter     9 | hands   89316 | mbb/hand  +594.5 | pol +0.0069 val 194.0796 ent 1.014 kl 0.3742 clip 0.293 | 196s
+iter    10 | hands   97866 | mbb/hand  +269.2 | pol +0.0061 val 219.6073 ent 1.025 kl 0.3900 clip 0.303 | 217s
+iter    11 | hands  106610 | mbb/hand  +577.2 | pol +0.0062 val 219.1869 ent 1.020 kl 0.4102 clip 0.310 | 238s
+iter    12 | hands  115322 | mbb/hand  +645.7 | pol +0.0070 val 232.7242 ent 1.029 kl 0.4280 clip 0.323 | 259s
+iter    13 | hands  123896 | mbb/hand  +366.8 | pol +0.0095 val 260.5846 ent 1.024 kl 0.4406 clip 0.326 | 280s
+iter    14 | hands  132608 | mbb/hand  +670.0 | pol +0.0077 val 246.0024 ent 1.027 kl 0.4533 clip 0.331 | 302s
+iter    15 | hands  141471 | mbb/hand +1148.8 | pol +0.0101 val 255.1070 ent 1.024 kl 0.4645 clip 0.340 | 324s
+iter    16 | hands  150258 | mbb/hand +1130.5 | pol +0.0110 val 261.6219 ent 1.019 kl 0.4767 clip 0.339 | 345s
+iter    17 | hands  159242 | mbb/hand  +906.1 | pol +0.0109 val 250.8826 ent 1.007 kl 0.4749 clip 0.334 | 366s
+iter    18 | hands  168296 | mbb/hand  +788.6 | pol +0.0105 val 224.5244 ent 1.003 kl 0.4713 clip 0.334 | 386s
+iter    19 | hands  177267 | mbb/hand  +857.2 | pol +0.0084 val 260.6015 ent 0.992 kl 0.4853 clip 0.339 | 405s
+iter    20 | hands  186397 | mbb/hand +1082.4 | pol +0.0104 val 250.7632 ent 1.001 kl 0.5137 clip 0.341 | 425s
+iter    21 | hands  195556 | mbb/hand +1157.6 | pol +0.0094 val 250.0718 ent 0.996 kl 0.5371 clip 0.338 | 445s
+iter    22 | hands  204812 | mbb/hand +1344.0 | pol +0.0128 val 249.0929 ent 0.990 kl 0.5370 clip 0.337 | 469s
+iter    23 | hands  214160 | mbb/hand +1315.4 | pol +0.0106 val 253.2489 ent 0.994 kl 0.5446 clip 0.332 | 492s
+iter    24 | hands  223576 | mbb/hand  +984.9 | pol +0.0106 val 249.9238 ent 0.988 kl 0.5569 clip 0.325 | 517s

@@ -1,0 +1,304 @@
+========== Hand #9 ==========
+Hero seat 2 (UTG) hole As 9s
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+Final board: []
+Winners: BB
+
+========== Hand #3 ==========
+Hero seat 0 (SB) hole 7s Ah
+-- pre --
+  UTG: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: UTG
+
+========== Hand #5 ==========
+Hero seat 4 (CO) hole 8c Jh
+-- pre --
+  UTG: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: UTG
+
+========== Hand #7 ==========
+Hero seat 0 (SB) hole 5c 5s
+-- pre --
+  UTG: folds
+  HJ: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: HJ
+
+========== Hand #11 ==========
+Hero seat 2 (UTG) hole Td 8c
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: CO
+
+========== Hand #14 ==========
+Hero seat 4 (CO) hole Qd 5d
+-- pre --
+  UTG: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: UTG
+
+========== Hand #17 ==========
+Hero seat 2 (UTG) hole Tc 9c
+-- pre --
+  UTG: folds
+  HJ: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: folds
+Final board: []
+Winners: HJ
+
+========== Hand #18 ==========
+Hero seat 1 (BB) hole 8c As
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: raise 1x-pot  (+2.00, pot_before 1.5)
+  BB: folds
+Final board: []
+Winners: SB
+
+========== Hand #19 ==========
+Hero seat 3 (HJ) hole 2c Qs
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  SB: folds
+  BB: folds
+Final board: []
+Winners: BTN
+
+========== Hand #20 ==========
+Hero seat 4 (CO) hole As 7h
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: raise 0.75x-pot  (+1.50, pot_before 1.5)
+  BB: folds
+Final board: []
+Winners: SB
+
+========== Hand #10 ==========
+Hero seat 1 (BB) hole Qs 8s
+-- pre --
+  UTG: folds
+  HJ: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  CO: folds
+  BTN: calls 2.00 (to_call 2.00)
+  SB: folds
+  BB: folds
+-- flop --
+  HJ: raise 0.33x-pot  (+1.81, pot_before 5.5)
+  BTN: folds
+Final board: [9h 7h 9d]
+Winners: HJ
+
+========== Hand #1 ==========
+Hero seat 4 (CO) hole Ac 9h
+-- pre --
+  UTG: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: calls 1.25 (to_call 1.25)
+-- flop --
+  BB: checks
+  UTG: raise 0.75x-pot  (+3.75, pot_before 5.0)
+  BB: folds
+Final board: [7s 7c 6s]
+Winners: UTG
+
+========== Hand #2 ==========
+Hero seat 4 (CO) hole Ks Ah
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: calls 1.25 (to_call 1.25)
+-- flop --
+  BB: checks
+  CO: raise 0.5x-pot  (+2.50, pot_before 5.0)
+  BB: folds
+Final board: [8c 3s Kh]
+Winners: CO
+
+========== Hand #15 ==========
+Hero seat 5 (BTN) hole Td Jd
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  BTN: calls 2.00 (to_call 2.00)
+  SB: folds
+  BB: folds
+-- flop --
+  CO: checks
+  BTN: raise 0.33x-pot  (+1.81, pot_before 5.5)
+  CO: folds
+Final board: [Th 5h 7s]
+Winners: BTN
+
+========== Hand #12 ==========
+Hero seat 5 (BTN) hole Qs 8s
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: folds
+  SB: raise 0.75x-pot  (+1.50, pot_before 1.5)
+  BB: raise 1.5x-pot  (+6.00, pot_before 3.0)
+  SB: calls 5.00 (to_call 5.00)
+-- flop --
+  SB: checks
+  BB: raise 0.5x-pot  (+7.00, pot_before 14.0)
+  SB: folds
+Final board: [9s Qh Js]
+Winners: BB
+
+========== Hand #8 ==========
+Hero seat 3 (HJ) hole 4d Kh
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: folds
+  BB: raise 2x-pot  (+10.25, pot_before 3.8)
+  CO: calls 9.00 (to_call 9.00)
+-- flop --
+  BB: raise 0.33x-pot  (+7.59, pot_before 23.0)
+  CO: raise 0.33x-pot  (+20.19, pot_before 30.6)
+  BB: ALL-IN  (+81.16, pot_before 50.8) [ALL-IN]
+  CO: folds
+Final board: [3h Kc 6s]
+Winners: BB
+
+========== Hand #13 ==========
+Hero seat 2 (UTG) hole 5h Td
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  BTN: folds
+  SB: calls 1.75 (to_call 1.75)
+  BB: folds
+-- flop --
+  SB: checks
+  CO: checks
+-- turn --
+  SB: checks
+  CO: raise 0.33x-pot  (+1.81, pot_before 5.5)
+  SB: folds
+Final board: [8d 6d Qd 3s]
+Winners: CO
+
+========== Hand #6 ==========
+Hero seat 2 (UTG) hole 2s 3c
+-- pre --
+  UTG: folds
+  HJ: folds
+  CO: folds
+  BTN: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  SB: folds
+  BB: calls 1.00 (to_call 1.00)
+-- flop --
+  BB: checks
+  BTN: checks
+-- turn --
+  BB: checks
+  BTN: checks
+-- river --
+  BB: checks
+  BTN: checks
+Final board: [9d Jc 6c 4c 4d]
+Winners: BTN
+
+========== Hand #4 ==========
+Hero seat 0 (SB) hole 2s 4h
+-- pre --
+  UTG: folds
+  HJ: raise 0.5x-pot  (+2.25, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: calls 1.25 (to_call 1.25)
+-- flop --
+  BB: checks
+  HJ: raise 0.33x-pot  (+1.65, pot_before 5.0)
+  BB: calls 1.65 (to_call 1.65)
+-- turn --
+  BB: checks
+  HJ: raise 0.75x-pot  (+6.22, pot_before 8.3)
+  BB: calls 6.22 (to_call 6.23)
+-- river --
+  BB: checks
+  HJ: checks
+Final board: [4s 9s Kh As 9c]
+Winners: BB
+
+========== Hand #16 ==========
+Hero seat 0 (SB) hole 5d Qs
+-- pre --
+  UTG: folds
+  HJ: raise 0.33x-pot  (+2.00, pot_before 1.5)
+  CO: folds
+  BTN: folds
+  SB: folds
+  BB: calls 1.00 (to_call 1.00)
+-- flop --
+  BB: checks
+  HJ: raise 0.5x-pot  (+2.25, pot_before 4.5)
+  BB: calls 2.25 (to_call 2.25)
+-- turn --
+  BB: checks
+  HJ: raise 0.75x-pot  (+6.75, pot_before 9.0)
+  BB: calls 6.75 (to_call 6.75)
+-- river --
+  BB: checks
+  HJ: raise 0.5x-pot  (+11.25, pot_before 22.5)
+  BB: calls -11.25 (to_call 11.25)
+Final board: [5c As 4c 4s Ah]
+Winners: BB, HJ
+
